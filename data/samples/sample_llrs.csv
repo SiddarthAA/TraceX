@@ -1,0 +1,11 @@
+id,title,description,type,component,safety_level
+LLR-001,Elevator Actuator Response Time,The elevator actuator shall respond to control commands within 30 ms.,performance,Actuator,DAL-B
+LLR-002,Control Law Update Rate,The pitch control law shall execute at a minimum rate of 100 Hz.,performance,Control Software,DAL-B
+LLR-003,IMU Pitch Rate Measurement,The IMU shall provide pitch rate measurements with latency not exceeding 10ms.,performance,IMU,DAL-B
+LLR-004,Flight Data Logging,The system shall log all critical flight data to non-volatile memory every 100ms.,diagnostic,Data Logger,DAL-D
+LLR-005,Emergency Detection Algorithm,The emergency detection algorithm shall analyze sensor data every 10ms and flag anomalies.,safety,Safety Monitor,DAL-A
+LLR-006,Attitude Angle Calculation,"The navigation software shall calculate pitch, roll, and yaw angles from IMU data with ±0.1 degree accuracy.",functional,Navigation Software,DAL-B
+LLR-007,Redundancy Monitor,The redundancy monitor shall check health status of all redundant channels every 50ms.,safety,Health Monitor,DAL-A
+LLR-008,Failsafe Command Generation,The failsafe logic shall generate safe control commands within 20ms of fault detection.,safety,Safety Monitor,DAL-A
+LLR-009,Mode Transition Logic,The mode transition controller shall complete mode changes within 200ms.,functional,Mode Controller,DAL-B
+LLR-010,Control Surface Position Sensor,Control surface position sensors shall report positions with 1ms update rate.,interface,Sensor Interface,DAL-C
