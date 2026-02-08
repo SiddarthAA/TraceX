@@ -1,6 +1,0 @@
-id,title,description,type,safety_level
-HLR-001,Pitch Stability Control,The flight control system shall maintain pitch stability within certified limits during all normal operating conditions.,functional,DAL-B
-HLR-002,Emergency Response System,The system shall detect and respond to emergency conditions within 100ms with appropriate failsafe actions.,safety,DAL-A
-HLR-003,Sensor Data Processing,The system shall process sensor data from multiple sources and provide accurate attitude information.,functional,DAL-B
-HLR-004,Redundancy Management,The system shall manage redundant components and automatically switch to backup systems upon primary failure.,safety,DAL-A
-HLR-005,Flight Mode Transitions,The system shall manage transitions between different flight modes without loss of control authority.,functional,DAL-B
