@@ -1,0 +1,11 @@
+id,description
+HLR-001,The flight control system shall compute pitch control commands based on aircraft state inputs.
+HLR-002,The flight control system shall acquire pitch-related sensor data for control computation.
+HLR-003,The pitch control laws shall execute at a rate sufficient to maintain pitch stability.
+HLR-004,The flight control system shall generate elevator actuator commands to control aircraft pitch.
+HLR-005,The flight control system shall meet end-to-end pitch control response time requirements.
+HLR-006,The flight control system shall detect failures in pitch-related sensors.
+HLR-007,The flight control system shall maintain pitch control using remaining valid sensors after a sensor failure.
+HLR-008,The flight control system shall validate pitch sensor data before use in control computation.
+HLR-009,The flight control system shall detect abnormal pitch control behavior.
+HLR-010,The flight control system shall provide alerts to the pilot when pitch control anomalies are detected.

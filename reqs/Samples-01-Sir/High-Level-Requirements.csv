@@ -1,0 +1,21 @@
+id, description
+HLR-001,The software shall initialize all ARINC-429 hardware interfaces within 500 ms of power-on.
+HLR-002,The software shall compute a Brake Pressure Command based on valid Pilot Pedal inputs.
+HLR-003,The software shall provide Antiskid protection when the aircraft speed is above 20 knots.
+HLR-004,The software shall inhibit all braking when the Touchdown Protection logic is active.
+HLR-005,The software shall support three distinct Auto-Brake modes (LO, MED, MAX).
+HLR-006,The software shall transition to "Manual Bypass" mode upon detection of a critical system failure.
+HLR-007,The software shall monitor the health of the ARINC-429 input bus and declare a "Bus Fault" if no data is received for 200 ms.
+HLR-008,The software shall provide a Continuous Built-In Test (CBIT) for sensor out-of-range detection.
+HLR-009,The software shall perform a Power-up Built-In Test (PBIT) to verify valve coil continuity.
+HLR-010,The software shall command the Parking Brake valve based on the discrete lever input.
+HLR-011,The software shall synchronize wheel speed data across redundant channels.
+HLR-012,The software shall limit the maximum rate of pressure increase to 5,000 psi/sec.
+HLR-013,The software shall calculate Aircraft Reference Speed based on the highest filtered wheel speed.
+HLR-014,The software shall manage the "Weight on Wheels" (WoW) persistence timer.
+HLR-015,The software shall transmit BCS Health Status on ARINC-429 Label 270.
+HLR-016,The software shall provide Locked-Wheel protection if one wheel speed is <30% of the reference speed.
+HLR-017,The software shall provide a maintenance interface for retrieving stored fault codes.
+HLR-018,The software shall implement a hardware watchdog timer.
+HLR-019,The software shall maintain a "Ready" state only when all internal diagnostic tests pass.
+HLR-020,The software shall apply a differential braking offset for unequal pedal inputs.

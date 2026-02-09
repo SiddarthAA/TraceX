@@ -1,0 +1,21 @@
+id,description
+LLR-001,The IMU shall provide pitch rate data at a minimum rate of 100 Hz.
+LLR-002,The IMU pitch rate data latency shall not exceed 10 milliseconds.
+LLR-003,The attitude sensor shall provide pitch angle measurements with accuracy better than 0.5 degrees.
+LLR-004,The sensor interface module shall timestamp pitch sensor data upon acquisition.
+LLR-005,The sensor interface module shall discard pitch sensor data older than 20 milliseconds.
+LLR-006,The sensor interface module shall flag invalid pitch sensor data.
+LLR-007,The pitch control law shall execute at a minimum rate of 100 Hz.
+LLR-008,The pitch control computation shall complete within 5 milliseconds per cycle.
+LLR-009,The pitch control law shall use validated pitch rate and pitch angle inputs.
+LLR-010,The control law shall generate elevator command outputs each execution cycle.
+LLR-011,The control software shall prioritize pitch control tasks over non-critical tasks.
+LLR-012,The elevator actuator shall respond to command inputs within 30 milliseconds.
+LLR-013,The actuator control module shall confirm command acceptance within 10 milliseconds.
+LLR-014,The actuator control module shall limit elevator deflection to certified bounds.
+LLR-015,The system shall compare redundant pitch sensor outputs to detect discrepancies.
+LLR-016,The system shall declare a sensor fault if discrepancy exceeds defined thresholds.
+LLR-017,Upon detection of a sensor fault the system shall exclude the faulty sensor from control computation.
+LLR-018,The system shall continue pitch control using remaining valid sensors after a fault.
+LLR-019,The system shall detect sustained deviations between commanded and actual pitch response.
+LLR-020,The system shall display a pitch control warning to the pilot within 1 second of anomaly detection.

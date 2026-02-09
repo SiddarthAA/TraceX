@@ -1,0 +1,6 @@
+id, description
+SYS-001,The BCS shall provide proportional braking pressure (0–3000 psi) based on pilot pedal deflection.
+SYS-002,The BCS shall provide Antiskid protection to prevent wheel lock-up above 20 knots.
+SYS-003,The BCS shall provide three selectable Auto-Brake deceleration levels: LO, MED, MAX.
+SYS-004,The BCS shall inhibit braking during touchdown until 3 seconds after WoW or wheel speed > 50 kts.
+SYS-005,The BCS shall perform continuous health monitoring and report faults via ARINC-429.

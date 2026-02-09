@@ -1,0 +1,36 @@
+id, description
+LLR-101,Parse ARINC-429 Label 230 (Pedal Position) bits 11-29 using BNR encoding.
+LLR-102,The parity bit (bit 32) of all incoming ARINC labels shall be verified using an Odd Parity check.
+LLR-103,If Label 310 SSM is 11 2 (Failure), set Wheel_Speed_Valid to FALSE.
+LLR-104,Apply a 4-sample moving average filter to the Pedal_Input value.
+LLR-105,Map output pressure command to a 12-bit DAC,0 psi=0x000; 3,000 psi=0xFFF.
+LLR-106,Calculate Normalized Pedal (D pedal) as (Input−Min)/(Max−Min).
+LLR-107,Calculate Wheel Deceleration (a w) as Δω/ΔT.
+LLR-108,Set Reference Velocity decay rate to 10 ft/s during signal loss.
+LLR-109,Calculate Slip Ratio (S) as (V ref −V wheel )/V ref
+LLR-110,Use Antiskid Proportional Gain (K p) = 1.25.
+LLR-111,Limit PID Integral wind-up to 500.
+LLR-112,Hard-limit pressure command to 3,050 psi.
+LLR-113,Execute main control loop at 100 Hz.
+LLR-114,Increment WoW persistence counter every 10 ms.
+LLR-115,Release Touchdown protection when WoW counter reaches 300.
+LLR-116,Latch "Antiskid Fault" if persistent for >500 ms.
+LLR-117,Execute PBIT in INIT state before STANDBY.
+LLR-118,Use Channel B data if Channel A is invalid.
+LLR-119,Detect Valve Failure if feedback < 100 psi while command > 1,000 psi.
+LLR-120,Clear volatile fault registers on hard reset.
+LLR-121,Swap Primary/Secondary ARINC buses if error count > 10.
+LLR-122,Trigger SYSTEM_HALT on NVM Checksum Error.
+LLR-123,Auto-Brake LO targets 5.0±0.2 ft/s 
+LLR-124,Auto-Brake MED targets 8.0±0.2 ft/s 
+LLR-125,Auto-Brake MAX targets 12.0±0.5 ft/s 
+LLR-126,Disarm Auto-Brake if pedal deflection > 10%.
+LLR-127,Control Servo Valve via 2 kHz PWM signal.
+LLR-128,Drive SHUTOFF_ENABLE GPIO HIGH for isolation.
+LLR-129,ADC pressure feedback resolution shall be ≥10 bits.
+LLR-130,De-bounce Parking Brake switch for 40 ms.
+LLR-131,Set Label 270 Bit 15 to 1 when Antiskid is Active.
+LLR-132,Set Label 270 Bits 16-17 for Health Status encoding.
+LLR-133,Clear ARINC TX buffer after successful broadcast.
+LLR-134,Measure Control_Task time using hardware timer.
+LLR-135,Raise TIMING_VIOLATION if task execution > 8 ms.

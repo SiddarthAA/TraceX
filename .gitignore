@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Model cache (sentence-transformers models)
+model_cache/
+
+# Data and outputs
+data/
+demo_output/
+demo_api_calls.json
+*.npy
+*.bin
+*.index
+.env

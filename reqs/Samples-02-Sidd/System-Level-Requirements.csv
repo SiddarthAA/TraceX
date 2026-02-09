@@ -1,0 +1,6 @@
+id,description
+SR-001,The aircraft flight control system shall maintain pitch stability during all normal operating conditions.
+SR-002,The aircraft flight control system shall respond to pilot pitch commands within 200 milliseconds.
+SR-003,The aircraft flight control system shall maintain safe pitch control in the presence of a single sensor failure.
+SR-004,The aircraft flight control system shall ensure valid and timely sensor data for pitch control computation.
+SR-005,The aircraft flight control system shall detect and report pitch control anomalies to the pilot.
