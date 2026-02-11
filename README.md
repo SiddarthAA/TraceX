@@ -1,6 +1,6 @@
 # Aerospace Requirements Traceability Engine
 
-A comprehensive end-to-end requirements traceability system for aerospace applications. This system traces from system-level requirements down to code variables, identifies gaps, and provides LLM-powered reasoning for incomplete or missing links.
+A Comprehensive end-to-end requirements traceability system for aerospace applications. This system traces from system-level requirements down to code variables, identifies gaps, and provides LLM-powered reasoning for incomplete or missing links.
 
 ## Features
 
